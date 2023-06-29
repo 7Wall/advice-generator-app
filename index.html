@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./src/images/favicon-32x32.png">
+
+  <title>Frontend Mentor | Advice generator app</title>
+
+  <link rel="stylesheet" href="./src/css/reset.css">
+  <link rel="stylesheet" href="./src/css/variables.css">
+  <link rel="stylesheet" href="./src/css/style.css">
+  <link rel="stylesheet" href="./src/css/responsive.css">
+</head>
+
+<body>
+  <main class="card">
+    <div class="advice">
+      <h2 class="advice-id">Advice #<span id="advice-id"></span></h2>
+
+      <p class="advice-text">""</p>
+
+      <picture>
+        <source media="(max-width: 768px)" srcset="./src/images/pattern-divider-mobile.svg">
+        <img src="./src/images/pattern-divider-desktop.svg" alt="Pattern divider">
+      </picture>
+
+      <button class="sort-advice">
+        <img src="./src/images/icon-dice.svg" alt="Dice icon">
+      </button>
+    </div>
+  </main>
+  <div class="attribution">
+    <p>Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>.</p>
+    <p>Coded by <a href="https://github.com/7Wall" target="_blank">Wallison Viana</a>.</p>
+  </div>
+
+  <script src="./js/script.js"></script>
+</body>
+
+</html>
