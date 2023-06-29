@@ -16,7 +16,7 @@ The project is an advice generator using Advice Slip API to generate random quot
 
 ### Links
 
-- Solution URL: [Advice generator]()
+- Solution URL: [Advice generator](https://7wall.github.io/advice-generator-app/)
 
 ## My process
 
